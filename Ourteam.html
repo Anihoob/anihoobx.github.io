@@ -1,0 +1,105 @@
+<!DOCTYPE  html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bb8f43b420.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="preloaderfunc()">
+  <div id="pre-loader">
+    <div class="ring"></div>
+       <span>読み込み中...</span>
+  </div>
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="#">AniHubX</a></div>
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Ourteam.html">Our Team</a></li>
+          
+          <li><a href="https://t.me/AniHubXD">Feedback</a></li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+  </div>
+    
+    
+
+<section class="team">
+  <div class="team-wrapper">
+    <div class="outer">
+      <div class="team-card" style="--delay:-1;">
+        <div class="team-content">
+          <div class="team-img"><img src="images/ichigo.jpg" alt=""></div>
+          <div class="details">
+            <span class="name">Kurosaki Ichigo</span>
+            <p>Web Dev. & Content Manager</p>
+          </div>
+        </div>
+        <a href="https://t.me/Kuroski_Ichigo">Follow</a>
+      </div>
+      <div class="team-card" style="--delay:0;">
+        <div class="team-content">
+          <div class="team-img"><img src="images/yoto.jpg" alt=""></div>
+          <div class="details">
+            <span class="name">Hinata Shouyo</span>
+            <p>Content Manager</p>
+          </div>
+        </div>
+        <a href="https://t.me/little_ga1nt">Follow</a>
+      </div>
+      <div class="team-card" style="--delay:1;">
+        <div class="team-content">
+          <div class="team-img"><img src="images/eren.jpg" alt=""></div>
+          <div class="details">
+            <span class="name">Eren Yeager</span>
+            <p>Content Manager</p>
+          </div>
+        </div>
+        <a href="https://t.me/X_Eren_Jeager_X">Follow</a>
+      </div>
+      <div class="team-card" style="--delay:2;">
+        <div class="team-content">
+          <div class="team-img"><img src="images/naruto.jpg" alt=""></div>
+          <div class="details">
+            <span class="name">Uzumaki Naruto</span>
+            <p>Content Manager</p>
+          </div>
+        </div>
+        <a href="https://t.me/qewertyy">Follow</a>
+      </div>
+      <div class="team-card" style="--delay:2;">
+        <div class="team-content">
+          <div class="team-img"><img src="images/levi.jpg" alt=""></div>
+          <div class="details">
+            <span class="name">Goku</span>
+            <p>Content Manager</p>
+          </div>
+        </div>
+        <a href="https://t.me/Levi_Ackerman_2003">Follow</a>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!--script-->
+<script>
+  var preloader = document.getElementById('pre-loader');
+  function preloaderfunc(){
+    preloader.style.display = 'none';
+  }
+
+</script>
+</body>
+</html>
