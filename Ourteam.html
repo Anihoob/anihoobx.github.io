@@ -1,0 +1,103 @@
+<!DOCTYPE  html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bb8f43b420.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="preloaderfunc()">
+  <div id="pre-loader">
+    <div class="ring"></div>
+       <span>読み込み中...</span>
+  </div>
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="index.html">AniHubX</a></div>
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Ourteam.html">Our Team</a></li>
+          
+          <li><a href="https://t.me/AniHubXD">Feedback</a></li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+  </div>
+    
+    
+
+<!--teamcards-->
+<section class="team-body">
+<div class="team-main">
+  <h1 class="team-h1">Our Team</h1>
+  <ul class="team-cards">
+    <li class="cards_item">
+      <div class="team-card">
+        <img class="card_image" src="/demo/images/ichigo.jpg">
+        <div class="card_content">
+          <h2 class="card_title">Kurosaki Ichigo</h2>
+          <p class="card_text">Web Dev. & Content Manger</p>
+          <button class="btn card_btn">
+           <a href="https://t.me/Kuroski_Ichigo">Contact</button></a>
+        </div>
+      </div>
+    </li>
+
+    <li class="cards_item">
+      <div class="team-card">
+        <img class="card_image" src="/demo/images/yoto.jpg">
+        <div class="card_content">
+          <h2 class="card_title">Hinata Shouyo</h2>
+          <p class="card_text">Content Manager</p>
+          <button class="btn card_btn">
+            <a href="https://t.me/little_ga1nt">Contact</button></a>
+        </div>
+      </div>
+    </li>
+
+
+    <li class="cards_item">
+      <div class="team-card">
+        <img class="card_image" src="/demo/images/naruto.jpg">
+        <div class="card_content">
+          <h2 class="card_title">Uzumaki Naruto</h2>
+          <p class="card_text">Content Manager</p>
+          <button class="btn card_btn">
+            <a href="https://t.me/qewertyy">Contact</button></a>
+        </div>
+      </div>
+    </li>
+
+    
+    
+  </ul>
+</div>
+
+<h3 class="made_by">Copyright © 2021 - AniHubX</h3>
+</section>
+    
+
+      
+  
+
+
+  </div>
+<!--script-->
+<script>
+  var preloader = document.getElementById('pre-loader');
+  function preloaderfunc(){
+    preloader.style.display = 'none';
+  }
+
+</script>
+</body>
+</html>
