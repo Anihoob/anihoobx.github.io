@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="nav.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniHubX</title>
+</head>
+<body>
+    <!--nav-->
+    <div class="navbar">
+    <nav>
+      <ul>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="tg.html">TG</a></li>
+        <li><a href="donuts.html">Donuts</a></li>
+      </ul>
+    </nav>
+  </div>
+
+    <div class="anime-header">
+        <div class="hcontainer" style=" background: linear-gradient( rgba(0, 0, 0, 0.329), #000000), url('images/opmbg.jpg');">
+        </div>
+        <h1 class="htitle">One Punch Man</h1>
+        <p class="hpara">TThe seemingly ordinary and unimpressive Saitama has a rather unique hobby: being a hero. In order to pursue his childhood dream..</p>
+        <button class="readmore">
+            <a href="/pages/opm.html" style="text-decoration: none; color: black ; font-weight: 800;"> Read More</a>
+        </button>
+
+    </div>
+
+    <!--slider-->
+    <div class="swiper-container swiper1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="pages/jjk.html"><img src="images/jujutsu kaizen.jpg" alt=""></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="pages/horimiya.html"><img src="images/horimiya-dlposter.jpg" alt=""></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="pages/ds.html"><img src="images/demonslayer.jpg" alt=""></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="pages/aot.html"><img src="images/aotposter.jpg" alt=""></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="pages/drs.html"><img src="images/drstone-dlposter.jpg" alt=""></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="pages/goh.html"><img src="images/gohs.jpg" alt=""></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="pages/opm.html"><img src="images/opm.jpg" alt=""></a>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination1"></div>
+      </div>
+    
+      <!-- Swiper JS -->
+      <script src="../package/swiper-bundle.min.js"></script>
+    
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper1 = new Swiper('.swiper1', {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          pagination: {
+            el: '.swiper-pagination1',
+            clickable: true,
+    
+            breakpoints: {
+            1240: {
+              slidesPerView: 3,
+              spaceBetween: 10,
+            },
+            
+          }
+          },
+        });
+
+    
+      </script>
+   
+   
+</body>
+</html>
