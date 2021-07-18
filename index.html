@@ -61,6 +61,9 @@
             <a href="pages/opm.html"><img src="images/opm.jpg" alt=""></a>
           </div>
         </div>
+         <!--arrow-->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
         <!-- Add Pagination -->
         <div class="swiper-pagination swiper-pagination1"></div>
       </div>
@@ -71,6 +74,12 @@
       <!-- Initialize Swiper -->
       <script>
         var swiper1 = new Swiper('.swiper1', {
+            
+           navigation :{
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },  
+            
           slidesPerView: 1,
           spaceBetween: 10,
           pagination: {
