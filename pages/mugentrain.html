@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="/css/styles.css">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="stylesheet" enabled="" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css">
+  <script src="https://kit.fontawesome.com/bb8f43b420.js" crossorigin="anonymous"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Download Page</title>
+</head>
+<body>
+   <div class="container">
+      <div class="bgimg">
+         <img class="bg" style=" background: linear-gradient( rgba(0, 0, 0, 0.253), #000000), url('/images/demonslayer-poster.jpg');">
+         <img class="poster" src="/images/demon-slayer-the-movie-mugen-train.154-198304.jpg">
+         </div>
+         <a href="/index.html"><i class=" icon fas fa-reply-all"></i></a>
+         <h1 class="title">
+            DEMON SLAYER MUGEN TRAIN (MOVIE) 60FPS
+             </h1>
+      <h1 class="rating">
+         <a href="https://www.imdb.com/title/tt11032374/" style="text-decoration: none;color: white; ">Ratings:
+         <i class="fas fa-star" style="color: gold;"></i>
+         8.3
+         </a></h1>
+
+         <h1 class="trailer">
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/bFwdl2PDAFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+         </h1>
+
+
+        </div>
+
+        
+      
+
+<!--divider-->
+   <div class="divider">
+      <h1 class="info">Information</h1>
+      <p class="info-p"><strong>Plot:</strong>
+         Slaying Demons </p>
+      <p class="info-p"><strong>Type:</strong> 
+         Movie</p>
+      <p class="info-p"><strong>Episodes</strong> 
+         1 </p>
+      <p class="info-p"><strong>Seasons:</strong> 
+         1</p>
+      <p class="info-p"><strong>Status</strong> 
+         Finished Airing</p>
+      <p class="info-p"><strong>Studio:</strong> 
+         ufotable</p>
+       <P class="info-p"><strong>Genre:</strong> 
+         Action, Demons, Historical, Shounen, Supernatural</P>
+   </div>
+
+   <!--information-->
+   <div class="synopsis">
+      <h1 class="synopsis-title">Synopsis</h1>
+      <p class="para">After a string of mysterious disappearances begin to plague a train, the Demon Slayer Corps' multiple attempts to remedy the problem prove fruitless. To prevent further casualties, the flame pillar, Kyoujurou Rengoku, takes it upon himself to eliminate the threat. Accompanying him are some of the Corps' most promising new blood: Tanjirou Kamado, Zenitsu Agatsuma, and Inosuke Hashibira, who all hope to witness the fiery feats of this model demon slayer firsthand.
+
+        Unbeknownst to them, the demonic forces responsible for the disappearances have already put their sinister plan in motion. Under this demonic presence, the group must muster every ounce of their willpower and draw their swords to save all two hundred passengers onboard. Kimetsu no Yaiba Movie: Mugen Ressha-hen delves into the deepest corners of Tanjirou's mind, putting his resolve and commitment to duty to the test.</p>
+   </div>
+
+   <!--download-->
+   <div class="download">
+   <div class="menu" id="menu-drop">
+      <span class="select">Download</span>
+      <div class="menu__icon-box">
+          <div class="menu__icon"></div>
+      </div>
+      <div class="menu__dropdown">
+         <div class="menu__dropdown-option">
+            <a href="https://ouo.io/W6UI8E" style="text-decoration: none; color: rgb(197, 188, 188);">
+             Mugen Train</a></div>
+ 
+       
+       
+        
+      </div>
+    </div>
+</div>
+<script>
+   const menu = document.querySelector('.menu');
+const option = document.querySelector('.menu span')
+
+menu.addEventListener('click', e => {
+  if (e.target.classList.contains('menu') || e.target.classList.contains('select') || e.target.classList.contains('menu__icon')) {
+      menu.classList.toggle('menu__active');
+  }
+
+  if (e.target.classList.contains('menu__dropdown-option')) {
+      option.innerHTML = e.target.textContent;
+      menu.classList.remove('menu__active');
+  }
+})
+</script>
+</body>
+</html>
