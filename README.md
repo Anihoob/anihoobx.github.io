@@ -30,9 +30,9 @@
   
 
 **Instagram**
-  
+  <P><a href="https://instagram.com/anihubx?igshid=e3iknhbqkhp2"><img src="https://telegra.ph/file/84cb4686fdbdeee3f0588.png"/></a></P> 
  
-![Telegram(https://telegra.ph/file/84cb4686fdbdeee3f0588.png)]()
+
   
   
 
