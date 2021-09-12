@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="/css/styles.css">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="stylesheet" enabled="" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css">
+  <script src="https://kit.fontawesome.com/bb8f43b420.js" crossorigin="anonymous"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Download Page</title>
+</head>
+<body>
+   <div class="container">
+      <div class="bgimg">
+         <img class="bg" style=" background: linear-gradient( rgba(0, 0, 0, 0.253), #000000), url('/images/evangelionbg.jpg');">
+         <img class="poster" src="/images/evangelion3.0+1.01 poster.png">
+         </div>
+         <a href="/index.html"><i class=" icon fas fa-reply-all"></i></a>
+         <h1 class="title">
+            EVANGELION 3.0+1.01 THRICE UPON A TIME 60FPS
+             </h1>
+      <h1 class="rating">
+         <a href="https://www.imdb.com/title/tt2458948/" style="text-decoration: none;color: white; ">Ratings:
+         <i class="fas fa-star" style="color: gold;"></i>
+         8.3
+         </a></h1>
+
+         <h1 class="trailer">
+            <iframe width="300" height="200" src="https://www.youtube-nocookie.com/embed/GZfuWMDEJpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+         </h1>
+
+
+        </div>
+
+        
+      
+
+<!--divider-->
+   <div class="divider">
+      <h1 class="info">Information</h1>
+      <p class="info-p"><strong>Plot:</strong>
+         Mecha Fights</p>
+      <p class="info-p"><strong>Type:</strong> 
+         Movie</p>
+      <p class="info-p"><strong>Studio:</strong> 
+         Kara</p>
+       <P class="info-p"><strong>Genre:</strong> 
+         Action, Scifi, Mecha, Drama, </P>
+   </div>
+
+   <!--information-->
+   <div class="synopsis">
+      <h1 class="synopsis-title">Synopsis</h1>
+      <p class="para">Shinji Ikari is still adrift after losing his will to live, but the place he arrives at teaches him what it means to hope. Finally, the Instrumentality Project is set in motion and Wille make one last grueling stand to prevent the Final Impact.</p>
+   </div>
+
+   <!--download-->
+   <div class="download">
+   <div class="menu" id="menu-drop">
+      <span class="select">Download</span>
+      <div class="menu__icon-box">
+          <div class="menu__icon"></div>
+      </div>
+      <div class="menu__dropdown">
+         <div class="menu__dropdown-option">
+            <a href="https://ouo.io/3AT3Od" style="text-decoration: none; color: rgb(197, 188, 188); font-size: 20px;">
+             Evangelion 3.0+1.01</a></div>
+ 
+       
+       
+        
+      </div>
+    </div>
+</div>
+<script>
+   const menu = document.querySelector('.menu');
+const option = document.querySelector('.menu span')
+
+menu.addEventListener('click', e => {
+  if (e.target.classList.contains('menu') || e.target.classList.contains('select') || e.target.classList.contains('menu__icon')) {
+      menu.classList.toggle('menu__active');
+  }
+
+  if (e.target.classList.contains('menu__dropdown-option')) {
+      option.innerHTML = e.target.textContent;
+      menu.classList.remove('menu__active');
+  }
+})
+</script>
+</body>
+</html>
