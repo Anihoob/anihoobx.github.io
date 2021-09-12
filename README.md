@@ -5,7 +5,9 @@
 
 **Developed By Kurosaki Ichigo**
 
-<b> Telegram </b>
+
+
+*Telegram*
   
  
 ![Telegram](https://telegra.ph/file/17f80dd5c1afe5b7bc627.png)
