@@ -6,6 +6,6 @@
 *Developed By Kurosaki Ichigo*
 ![Telegram]()
 
-!<b>AniHubX<b>
-![AniHubX](https://telegra.ph/file/a0d08a12385b09223c239.jpg)
+# <b>AniHubX<b>
+![AniHubX](https://telegra.ph/file/3e7dc05a6135da668f0a6.png)
 *Providing Best Quality Possible*
