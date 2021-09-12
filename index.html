@@ -1,129 +1,307 @@
 <!DOCTYPE html>
-<html lang="en">
+    <html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="nav.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AniHubX</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AniHubX60</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+
+  <script src="main.js"></script>
 </head>
 <body>
-    <!--nav-->
+  <div class="wrapper">
+
+    <!-- HEADER -->
     <div class="navbar">
-    <nav>
-      <ul>
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="team.html">Team</a></li>
-        <li><a href="tg.html">TG</a></li>
-        <li><a href="donuts.html">Donuts</a></li>
-      </ul>
-    </nav>
+        <nav>
+          <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="tg.html">TG</a></li>
+            <li><a href="donuts.html">Donuts</a></li>
+          </ul>
+        </nav>
+      </div>
+    
+    <!-- END OF HEADER -->
+    
+    <!-- MAIN CONTAINER -->
+    <section class="main-container" >
+      <div class="location" id="home">
+          <h1 id="home">Animes</h1>
+          <div class="box">
+            <a href="/pages/jjk.html"><img src="/images/jujutsu-kaisen.jpg" alt=""></a>
+            <a href="/pages/aot.html"><img src="/images/aot.jpg" alt=""></a>
+            <a href="/pages/ds.html"><img src="/images/demonslayer-poster.jpg" alt=""></a>
+            <a href="/pages/drs.html"><img src="/images/dr.stone-poster.jpg" alt=""></a>
+            <a href="/pages/goh.html"><img src="images/GOH-DLPOSTER.png" alt=""></a>
+            <a href="/pages/haikyuu.html"><img src="/images/haikyuu-bg.jpg" alt=""></a>
+    
+            <a href="/pages/horimiya.html"><img src="/images/horimiya-poster.jpg" alt=""></a>
+            <a href="/pages/opm.html"><img src="/images/opmbg.jpg" alt=""></a>
+                
+          </div>
+      </div>
+      
+
+      <h1 id="myList">Movies</h1>
+      <div class="box">
+        <a href="/pages/mugentrain.html"><img src="/images/demonslayermugenbg.jpg" alt=""></a>
+        <a href=""><img src="/images/" alt=""></a>
+        <a href=""><img src="/images/jujutsu-kaisen.jpg" alt=""></a>
+              
+      </div>
+      
+     
+     
+    <!-- END OF MAIN CONTAINER -->
+
+    
+
+    <!-- FOOTER -->
+    <footer>
+      <p>Team AniHubX</p>
+      <p> Since 2020</p>
+    </footer>
   </div>
 
-    <div class="anime-header">
-        <div class="hcontainer" style=" background: linear-gradient( rgba(0, 0, 0, 0.329), #000000), url('images/haikyuu-bg.jpg');">
-        </div>
-        <h1 class="htitle">Haikyuu</h1>
-        <p class="hpara">After their triumphant victory over Shiratorizawa Academy, the Karasuno High School volleyball team has earned their long-awaited ticket..</p>
-        <button class="readmore">
-            <a href="/pages/haikyuu.html" style="text-decoration: none; color: black ; font-weight: 800;"> Read More</a>
-        </button>
+  <style>
+      /* CSS VARIABLES */
+:root {
+  --primary: black;
+  --light: #F3F3F3;
+  --dark: 	#686868;
+}
 
-    </div>
+html, body {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary);
+  color: var(--light);
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  line-height: 1.4;
+}
 
-    <h1 style="padding-left: 2rem;"> TV Series
-    </h1>
-    <!--slider-->
-    <div class="swiper-container swiper1">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <a href="pages/jjk.html"><img src="images/jujutsu kaizen.jpg" alt=""></a>
-          </div>
-          <div class="swiper-slide">
-            <a href="pages/horimiya.html"><img src="images/horimiya-dlposter.jpg" alt=""></a>
-          </div>
-          <div class="swiper-slide">
-            <a href="pages/ds.html">
-              <img src="images/demonslayer.jpg" alt=""></a>
-          </div>
-          <div class="swiper-slide">
-            <a href="pages/aot.html"><img src="images/aotposter.jpg" alt=""></a>
-          </div>
-          <div class="swiper-slide">
-            <a href="pages/drs.html"><img src="images/drstone-dlposter.jpg" alt=""></a>
-          </div>
-          <div class="swiper-slide">
-            <a href="pages/goh.html"><img src="images/gohs.jpg" alt=""></a>
-          </div>
-          <div class="swiper-slide">
-            <a href="pages/opm.html"><img src="images/opm.jpg" alt=""></a>
-          </div>
-            <div class="swiper-slide">
-            <a href="pages/haikyuu.html"><img src="images/haikyuu.jpg" alt=""></a>
-          </div>
-        </div>
-        <!--arrow-->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination swiper-pagination1"></div>
-      </div>
+img {
+  max-width: 100%;
+}
 
-      <h1 style="padding-left: 2rem;"> Movies
-      </h1>
-      <!--slider-->
-      <div class="swiper-container swiper1">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <a href="pages/mugentrain.html"><img src="images/demon-slayer-the-movie-mugen-train.154-198304.jpg" alt=""></a>
-            </div>
-            
-          </div>
-          <!--arrow-->
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-          <!-- Add Pagination -->
-          <div class="swiper-pagination swiper-pagination1"></div>
-        </div>
-    
-      <!-- Swiper JS -->
-      <script src="../package/swiper-bundle.min.js"></script>
-    
-      <!-- Initialize Swiper -->
-      <script>
-        var swiper1 = new Swiper('.swiper1', {
+h1 {
+  padding-top: 60px;  
+}
 
-          navigation :{
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
-            },
-          
-          slidesPerView:1,
-          spaceBetween: 10,
-          pagination: {
-            el: '.swiper-pagination1',
-            clickable: true,
-    
-            breakpoints: {
-            1240: {
-              slidesPerView: 3,
-              spaceBetween: 10,
-            },
+.wrapper {
+  margin: 0;
+  padding: 0;
+}
 
-            
-            
-          }
-          },
-        });
+/* HEADER */
+.navbar{
+  width: 100%;
+  z-index: 99999px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
 
-    
-      </script>
+}
+
+nav {
+  position: relative;
+  padding-bottom: 12px; }
+  nav .line {
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    margin: 10px 0 0 0;
+    background: #FF1847; }
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex; }
+    nav ul li {
+      margin: 0 40px 0 0;
+      opacity: .4;
+      transition: all 0.4s ease; }
+      nav ul li:hover {
+        opacity: .7; }
+      nav ul li.active {
+        opacity: 1; }
+      nav ul li:last-child {
+        margin-right: 0; }
+      nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        display: block;
+        font-weight: 600;
+        letter-spacing: .2em;
+        font-size: 14px; }
+
+
+/* MAIN CONTIANER */
+.main-container {
+  padding: 30px;
+  padding-top: 10px;
+}
+
+.box {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(6, minmax(100px, 1fr));
+}
+
+.box a {
+  transition: transform .3s;  
+}
+
+.box a:hover {
+  transition: transform .3s;
+  -ms-transform: scale(1.4);
+  -webkit-transform: scale(1.4);  
+  transform: scale(1.4);
+}
+
+.box img {
+  border-radius: 10px;
+}
+
+
+
+
+/* FOOTER */
+footer {
+  padding: 20px;
+  text-align: center;
+  color: var(--dark);
+  margin: 10px;
+}
+
+/* MEDIA QUERIES */
+
+@media(max-width: 900px) {
+
+  header {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "nt nt nt  .  .  . sb . . . "
+    "mn mn mn mn mn mn  mn mn mn mn";
+  }
+
+  .box {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+  }
+
+}
+
+@media(max-width: 700px) {
+
+  header {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "nt nt nt  .  .  . sb . . . "
+    "mn mn mn mn mn mn  mn mn mn mn";
+  }
+
+  .box {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+  }
+
+  .sub-links ul {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+  }
    
+}
+
+@media(max-width: 500px) {
+
+  .wrapper {
+    font-size: 15px;
+  }
+
+  header {
+    margin: 0;
+    padding: 20px 0 0 0;
+    position: static;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: 
+    "nt"    
+    "mn"
+    "sb";
+    text-align: start;
+  }
+
+  .netflixLogo {
+    max-width: 100%;
+    margin: auto;
+    padding-right: 20px;
+  }
+
+  .main-nav {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+
+  h1 {
+    text-align: start;
+    font-size: 30px;
+  }
+
+ 
+
+  .box {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;    
+  }
+
+  .box a:hover {
+    transition: transform .3s;
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);  
+    transform: scale(1.2);
+  }
+
+  .logos {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+  }
+
+  .sub-links ul {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    font-size: 15px;
+  }
+
+  
+
+  
    
+}
+  </style>
 </body>
 </html>
+
