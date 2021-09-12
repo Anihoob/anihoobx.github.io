@@ -19,3 +19,20 @@
 ![AniHubX](https://telegra.ph/file/3e7dc05a6135da668f0a6.png)
   
 *Providing Best Quality Possible*
+  
+  
+  
+
+**Telegram**
+  
+ 
+![Telegram](https://telegra.ph/file/17f80dd5c1afe5b7bc627.png)
+  
+
+**Instagram**
+  
+ 
+![Telegram](https://telegra.ph/file/84cb4686fdbdeee3f0588.png)
+  
+  
+
