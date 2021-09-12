@@ -32,7 +32,7 @@
 **Instagram**
   
  
-![Telegram](https://telegra.ph/file/84cb4686fdbdeee3f0588.png)
+![Telegram(https://telegra.ph/file/84cb4686fdbdeee3f0588.png)]()
   
   
 
