@@ -22,7 +22,7 @@
 
 **Telegram**                     
   
-  <P><a href="https://t.me/joinchat/SrbpMYNaJxRhZWRl"><img src="https://telegra.ph/file/17f80dd5c1afe5b7bc627.png" width="100"/></a></P>
+  <P><a href="https://t.me/joinchat/SrbpMYNaJxRhZWRl"><img src="https://telegra.ph/file/17f80dd5c1afe5b7bc627.png" width="50"/></a></P>
 
   
   
@@ -31,7 +31,7 @@
    **Instagram**
   
   
-  <P><a href="https://instagram.com/anihubx?igshid=e3iknhbqkhp2"><img src="https://telegra.ph/file/84cb4686fdbdeee3f0588.png"/></a></P> 
+  <P><a href="https://instagram.com/anihubx?igshid=e3iknhbqkhp2"><img src="https://telegra.ph/file/84cb4686fdbdeee3f0588.png" width="50"/></a></P> 
   
   
 
