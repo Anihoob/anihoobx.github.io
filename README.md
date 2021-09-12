@@ -5,7 +5,7 @@
 
 *Developed By Kurosaki Ichigo*
 
-[![Telegram]https://telegra.ph/file/17f80dd5c1afe5b7bc627.png](https://t.me/Kuroski_Ichimaru)
+![Telegram](https://telegra.ph/file/17f80dd5c1afe5b7bc627.png)
 
 # <b>AniHubX<b>
 ![AniHubX](https://telegra.ph/file/3e7dc05a6135da668f0a6.png)
