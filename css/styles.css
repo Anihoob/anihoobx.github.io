@@ -52,7 +52,7 @@ nav {
         margin-right: 0; }
       nav ul li a {
         text-decoration: none;
-        color: #fff;
+        color: lawngreen;
         text-transform: uppercase;
         display: block;
         font-weight: 600;
@@ -64,113 +64,8 @@ nav {
 
 
 
-/*header*/
-.anime-header{
-  font-family: 'Poppins', sans-serif;
-    width: 100%;
-    height: 100vh;
-}
-
-.hcontainer{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.htitle{
-   color:  rgb(197, 188, 188);
-    font: 700;
-    font-size: 3rem;
-    position: absolute;
-    top: 60%;
-    margin-left: 2rem;
-}
-
-.hpara{
-    color: rgb(197, 188, 188);
-    font: 700;
-    font-size: 1rem;
-    position: absolute;
-    bottom: 10%;
-    margin-left: 2rem ;
-    margin-right: 2rem;
-}
-
-.readmore{
-    border: none;
-    text-decoration: none;
-    color: black;
-    background: rgb(197, 188, 188);
-    position: absolute;
-    bottom: 6%;
-    margin-left: 2rem ;
-    width: 6rem;
-    height: 2rem;
-    font: 900;
-    font-size: 1rem;
-    border-radius: 999999px;
-
-}
-
-@media screen and (max-width: 900px){
-    .htitle{
-        color:  rgb(197, 188, 188);
-         font: 700;
-         font-size: 3rem;
-         position: absolute;
-         top: 50%;
-         margin-left: 2rem;
-     }
-}
-
-@media screen and (max-width: 400px){
-    .htitle{
-        color:  rgb(197, 188, 188);
-         font: 700;
-         font-size: 3rem;
-         position: absolute;
-         top: 40%;
-         margin-left: 2rem;
-     }
-}
 
 
-/* slider*/
-.swiper-container {
-  font-family: 'Poppins', sans-serif;
-	width: 90%;
-	height: 300px;
-  margin-bottom: 3rem;
-  }
-
-  .swiper-slide {
-	text-align: center;
-	font-size: 18px;
-	object-fit: contain;
-
-	/* Center slide text vertically */
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	-webkit-justify-content: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	-webkit-align-items: center;
-	align-items: center;
-  }
-
-
-  .swiper-slide a img{
-	width: 200px;
-	height: 300px;
-  }
-
-  
 
   /*team*/
 
