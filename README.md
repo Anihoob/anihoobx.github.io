@@ -1,4 +1,4 @@
-# <b> AniHubX 60FPS </b>
+# <b> AniHubX FPS </b>
 
 **Developed By Kurosaki Ichigo**
 
