@@ -1,4 +1,4 @@
-# <b> AniHubX FPS </b>
+# <b> AniHubX【 ＦＰＳ 道場 】
 
 **Developed By Kurosaki Ichigo**
 
