@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="/css/styles.css">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="stylesheet" enabled="" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css">
+  <script src="https://kit.fontawesome.com/bb8f43b420.js" crossorigin="anonymous"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Download Page</title>
+</head>
+<body>
+   <div class="container">
+      <div class="bgimg">
+         <img class="bg" style=" background: linear-gradient( rgba(0, 0, 0, 0.253), #000000), url('https://res.cloudinary.com/dxi9wcchp/image/upload/v1653995653/vooRKLGVvFRFmx9swcMh26uYZSf_mq03kw.jpg');">
+         <img class="poster" src="https://res.cloudinary.com/dxi9wcchp/image/upload/v1653995113/rideyourwave_zw82c2.jpg">
+         </div>
+         <a href="/index.html"><i class=" icon fas fa-reply-all"></i></a>
+         <h1 class="title">
+            RIDE YOUR WAVE (MOVIE) 144FPS
+             </h1>
+      <h1 class="rating">
+         <a href="https://www.imdb.com/title/tt9193612/" style="text-decoration: none;color: white; ">Ratings:
+         <i class="fas fa-star" style="color: gold;"></i>
+         6.8
+         </a></h1>
+
+         <h1 class="trailer">
+            <iframe width="300" height="200" src="https://youtu.be/OOEpST-PHh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+         </h1>
+
+
+        </div>
+
+        
+      
+
+<!--divider-->
+   <div class="divider">
+      <h1 class="info">Information</h1>
+      <p class="info-p"><strong>Plot:</strong>
+         Surfing  </p>
+      <p class="info-p"><strong>Type:</strong> 
+         Movie</p>
+      <p class="info-p"><strong>Episodes</strong> 
+         1 </p>
+      <p class="info-p"><strong>Seasons:</strong> 
+         1</p>
+      <p class="info-p"><strong>Status</strong> 
+         Finished Airing</p>
+      <p class="info-p"><strong>Studio:</strong> 
+         GKIDS</p>
+       <P class="info-p"><strong>Genre:</strong> 
+         Drama, Adventure</P>
+   </div>
+
+   <!--information-->
+   <div class="synopsis">
+      <h1 class="synopsis-title">Synopsis</h1>
+      <p class="para">Entranced by surfing and the sea, Hinako Mukaimizu is a spirited girl who attends college in a coastal city with no consideration for her future career. Her life takes an unexpected turn when a fireworks mishap sets the apartment building she lives in ablaze, where she is saved by a talented firefighter named Minato Hinageshi. Upon meeting, the two quickly become acquainted with one another—Hinako is instantly enamored by Minato's reliable personality and passion for saving others, while Minato is intrigued by surfing and is eager to learn how. As Hinako begins to teach Minato about surfing, the pair eventually fall in love and begin a gentle and devoted relationship.
+
+However, while surfing may seem fun and carefree, it can still be a dangerous and unpredictable activity. This is what Hinako learns when a surfing incident completely changes her life, leaving her forced to contemplate her undecided future. In search of her own calling, Hinako begins her journey of self-discovery, keeping Minato by her side as she gradually attempts to find her purpose and ride her own wave.</p>
+   </div>
+
+   <!--download-->
+   <div class="download">
+   <div class="menu" id="menu-drop">
+      <span class="select">Download</span>
+      <div class="menu__icon-box">
+          <div class="menu__icon"></div>
+      </div>
+      <div class="menu__dropdown">
+         <div class="menu__dropdown-option">
+            <a href="https://ouo.io/2Bknuqf" style="text-decoration: none; color: rgb(197, 188, 188);">
+             Ride Your Wave</a></div>
+ 
+       
+       
+        
+      </div>
+    </div>
+</div>
+<script>
+   const menu = document.querySelector('.menu');
+const option = document.querySelector('.menu span')
+
+menu.addEventListener('click', e => {
+  if (e.target.classList.contains('menu') || e.target.classList.contains('select') || e.target.classList.contains('menu__icon')) {
+      menu.classList.toggle('menu__active');
+  }
+
+  if (e.target.classList.contains('menu__dropdown-option')) {
+      option.innerHTML = e.target.textContent;
+      menu.classList.remove('menu__active');
+  }
+})
+</script>
+</body>
+</html>
